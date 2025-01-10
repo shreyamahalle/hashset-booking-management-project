@@ -1,11 +1,12 @@
-package com.using.hashmap.service;
-import com.using.hashmap.model.DeliveryAgent;
+package com.using.hashset.service;
+import com.using.hashset.model.DeliveryAgent;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class DeliveryAgentService {
-    private ArrayList<DeliveryAgent> deliveryAgents = new ArrayList<>();
+    private HashSet<DeliveryAgent> deliveryAgents = new HashSet<>();
     private Scanner sc = new Scanner(System.in);
 
     void printCustomer(DeliveryAgent deliveryAgent){

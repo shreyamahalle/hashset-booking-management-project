@@ -1,12 +1,13 @@
-package com.using.hashmap.service;
+package com.using.hashset.service;
 
-import com.using.hashmap.model.Restaurant;
+import com.using.hashset.model.Restaurant;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class RestaurantService {
-    private ArrayList<Restaurant> restaurants = new ArrayList<>();
+    private HashSet<Restaurant> restaurants = new HashSet<>();
     private Scanner sc = new Scanner(System.in);
 
     void printCustomer(Restaurant r){

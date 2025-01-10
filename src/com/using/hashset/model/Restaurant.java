@@ -1,4 +1,4 @@
-package com.using.hashmap.model;
+package com.using.hashset.model;
 
 public class Restaurant {
     private int registerNo;

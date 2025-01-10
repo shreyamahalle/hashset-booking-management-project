@@ -1,12 +1,12 @@
-package com.using.hashmap;
-import com.using.hashmap.model.Customer;
-import com.using.hashmap.model.DeliveryAgent;
-import com.using.hashmap.model.Order;
-import com.using.hashmap.model.Restaurant;
-import com.using.hashmap.service.CustomerService;
-import com.using.hashmap.service.DeliveryAgentService;
-import com.using.hashmap.service.OrderService;
-import com.using.hashmap.service.RestaurantService;
+package com.using.hashset;
+import com.using.hashset.model.Customer;
+import com.using.hashset.model.DeliveryAgent;
+import com.using.hashset.model.Order;
+import com.using.hashset.model.Restaurant;
+import com.using.hashset.service.CustomerService;
+import com.using.hashset.service.DeliveryAgentService;
+import com.using.hashset.service.OrderService;
+import com.using.hashset.service.RestaurantService;
 
 import java.util.Scanner;
 public class BookingOrderManagement {
@@ -63,10 +63,7 @@ public class BookingOrderManagement {
                     restaurantService.createRestaurant();
                     System.out.println("Restaurant created : " + restaurant);
                     break;
-
             }
-
-
         } while (option != 0);
 
         System.out.println("THANK YOU!");

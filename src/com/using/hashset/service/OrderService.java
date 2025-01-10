@@ -1,12 +1,13 @@
-package com.using.hashmap.service;
-import com.using.hashmap.model.Order;
+package com.using.hashset.service;
+import com.using.hashset.model.Order;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class OrderService {
 
-    private ArrayList<Order> orders = new ArrayList<>();
+    private HashSet<Order> orders = new HashSet<>();
     private Scanner sc = new Scanner(System.in);
 
     void printCustomer(Order o){

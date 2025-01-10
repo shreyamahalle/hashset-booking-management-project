@@ -1,12 +1,12 @@
-package com.using.hashmap.service;
-import com.using.hashmap.model.Customer;
+package com.using.hashset.service;
+import com.using.hashset.model.Customer;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Scanner;
 public class CustomerService {
 
 
-    private ArrayList<Customer> customers = new ArrayList<>();
+    private HashSet<Customer> customers = new HashSet<>();
     private Scanner sc = new Scanner(System.in);
 
     void printCustomer(Customer customer){
