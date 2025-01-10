@@ -1,5 +1,5 @@
-package com.using.array.service;
-import com.using.array.model.Customer;
+package com.using.hashmap.service;
+import com.using.hashmap.model.Customer;
 
 import java.util.ArrayList;
 import java.util.Scanner;

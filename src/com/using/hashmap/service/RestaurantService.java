@@ -1,7 +1,6 @@
-package com.using.array.service;
+package com.using.hashmap.service;
 
-import com.using.array.model.Customer;
-import com.using.array.model.Restaurant;
+import com.using.hashmap.model.Restaurant;
 
 import java.util.ArrayList;
 import java.util.Scanner;

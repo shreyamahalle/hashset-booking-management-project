@@ -1,12 +1,12 @@
-package com.using.array;
-import com.using.array.model.Customer;
-import com.using.array.model.DeliveryAgent;
-import com.using.array.model.Order;
-import com.using.array.model.Restaurant;
-import com.using.array.service.CustomerService;
-import com.using.array.service.DeliveryAgentService;
-import com.using.array.service.OrderService;
-import com.using.array.service.RestaurantService;
+package com.using.hashmap;
+import com.using.hashmap.model.Customer;
+import com.using.hashmap.model.DeliveryAgent;
+import com.using.hashmap.model.Order;
+import com.using.hashmap.model.Restaurant;
+import com.using.hashmap.service.CustomerService;
+import com.using.hashmap.service.DeliveryAgentService;
+import com.using.hashmap.service.OrderService;
+import com.using.hashmap.service.RestaurantService;
 
 import java.util.Scanner;
 public class BookingOrderManagement {

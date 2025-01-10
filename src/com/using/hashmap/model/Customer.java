@@ -1,18 +1,20 @@
-package com.using.array.model;
+ package com.using.hashmap.model;
 
-public class DeliveryAgent {
+public class Customer {
     private int id;
     private String name;
     private String city;
     private int mobileNo;
+    private int age;
 
     @Override
     public String toString() {
-        return "DeliveryAgent{" +
+        return "Customer{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", city='" + city + '\'' +
                 ", mobileNo=" + mobileNo +
+                ", age=" + age +
                 '}';
     }
 
@@ -46,5 +48,13 @@ public class DeliveryAgent {
 
     public void setMobileNo(int mobileNo) {
         this.mobileNo = mobileNo;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
