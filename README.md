@@ -21,7 +21,7 @@ The Core Java hashmap Booking Management Project is a basic Java application tha
 ## **Steps**
 - Clone the repository:
   ```shell
-   git clone %%% "git@github.com:shreyamahalle/collection-booking-management-project.git" 
+   git clone %%% "git@github.com:shreyamahalle/hashmap-booking-management-project.git" 
 - Navigate to the project directory:
 - cd core-java-if-booking-project
 - Open the project in your preferred IDE.
