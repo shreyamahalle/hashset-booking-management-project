@@ -1,9 +1,9 @@
-# hashmap-booking-management-project
+# hashset-booking-management-project
 
 
 ## **Project Overview**
 
-The Core Java hashmap Booking Management Project is a basic Java application that demonstrates a booking management system. It utilizes object-oriented programming principles and simulates the interactions between customers, delivery agents, restaurants, and orders.
+The Core Java hashset Booking Management Project is a basic Java application that demonstrates a booking management system. It utilizes object-oriented programming principles and simulates the interactions between customers, delivery agents, restaurants, and orders.
 
 ## **Features**
 
@@ -21,7 +21,7 @@ The Core Java hashmap Booking Management Project is a basic Java application tha
 ## **Steps**
 - Clone the repository:
   ```shell
-   git clone %%% "git@github.com:shreyamahalle/hashmap-booking-management-project.git" 
+   git clone %%% "git@github.com:shreyamahalle/hashset-booking-management-project.git" 
 - Navigate to the project directory:
 - cd core-java-if-booking-project
 - Open the project in your preferred IDE.
